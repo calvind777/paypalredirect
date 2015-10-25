@@ -5,16 +5,51 @@
 	color:white;
 }
 
+#container{
+	width:800px;
+	margin:auto;
+}
+
 #titletext{
 	font-family: 'Droid Sans', sans-serif;
 	text-align:center;
 	font-size:40px;
 	color:white;
+	padding:10px;
+	margin:10px;
+}
+#logo{
+	text-align: center;
+	padding:10px;
+	margin:10px;
+}
+#button{
+	font-family: 'Droid Sans', sans-serif;
+	width:800px;
+
+}
+#button > form > table{
+	margin:auto;
+}
+#button > form > table > tbody > tr:nth-child(1) > td{
+	text-align: center;
+}
+.checkouti{
+	width:80em;
+
+	
 }
 
-#button{
-	position: fixed;
-top: 30%;
-left: 50%;
-transform: translate(-50%, -50%);
+#checkoutimg{
+	display:block;
+	margin:4em auto;
+	border-radius:3em;
+	width:25em;
+	transition: width 0.5s ease;
+	
+}
+#checkoutimg:hover{
+	
+width:30em;
+
 }
