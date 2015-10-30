@@ -3,37 +3,55 @@
 <head>
 	<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+$(document).ready(function () {
+    $('#done').slideDown(1000);
+    $('#title').fadeIn(3000);
+    $('#button').fadeIn(3000);
+    $('#titletext').fadeIn(3000);
+    $('#checkouti').fadeIn(3000);
+
+
+    
+});
+</script>
 
 </head>
 
 <body background="http://cdn.playbuzz.com/cdn/c1e29b09-c72f-4836-812a-4b4e97ce9c81/7cf2b41c-f716-457e-8b20-b6eddd8e1d4a.jpg"> 
+
 <div id="container">
 <div id="logo"> <img src="http://i.imgur.com/PzMcBYj.png?1"> </div>
-<div id="title">
-	Secure Payment Page
+
+<div id="done" style="display:none;">
+	You're all done!
+</div>
+<div id="title" style="display:none;">
+	We'll have your essay back in 48 hours. In the meantime...
 </div>
 
-<div id="titletext">
-	Please select your plan:
+<div id="titletext" style="display:none;">
+	Please consider donating to us! 100% of the proceeds goes to fund literacy education in America at jstart.org. 
 </div>
 
-<div id="button">
-<form  action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+
+<div id="button" style="display:none;">
+
+
+
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="KGCCWR8JMVF34">
-<table>
-<tr><td><input type="hidden" name="on0" id="ezt" value="Prices">Prices</td></tr><tr><td><select name="os0">
-	<option value="Standard">Standard $15.00 USD</option>
-	<option value="Premium">Premium $25.00 USD</option>
-	<option value="Platinum">Platinum $30.00 USD</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<div id="checkouti">
-<input type="image" id="checkoutimg" src="http://i.imgur.com/LwnPplN.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<input type="hidden" name="hosted_button_id" value="UUPZJVZHJ666L">
+<div id="checkouti" style="display:none;">
+<input type="image" id="checkoutimg" src="http://indianaraptorcenter.com/wp-content/uploads/2015/01/paypal-logo-300x300.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 </div>
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
+
+
+
 </div>
 </div>
 </body>

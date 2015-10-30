@@ -1,3 +1,10 @@
+#done{
+	font-family: 'Droid Sans', sans-serif;
+	text-align:center;
+	font-size:40px;
+	color:white;
+	margin-bottom:1em;
+}
 #title{
 	font-family: 'Droid Sans', sans-serif;
 	text-align:center;
@@ -13,7 +20,7 @@
 #titletext{
 	font-family: 'Droid Sans', sans-serif;
 	text-align:center;
-	font-size:40px;
+	font-size:20px;
 	color:white;
 	padding:10px;
 	margin:10px;
@@ -21,7 +28,7 @@
 #logo{
 	text-align: center;
 	padding:10px;
-	margin:10px;
+	margin-bottom:20px;
 }
 #button{
 	font-family: 'Droid Sans', sans-serif;
@@ -44,12 +51,12 @@
 	display:block;
 	margin:4em auto;
 	border-radius:3em;
-	width:25em;
+	width:15em;
 	transition: width 0.5s ease;
 	
 }
 #checkoutimg:hover{
 	
-width:30em;
+width:20em;
 
 }
